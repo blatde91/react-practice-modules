@@ -10,10 +10,7 @@ import MoreOptionsButton from './components/MoreOptionsButton/MoreOptionsButton'
 import './App.css';
 
 class App extends Component {
-  constructor(props) {
-    super();
-  }
-  
+
   render() {
     return (
       <div>
@@ -40,7 +37,7 @@ const testTweet = {
   gravatar: "24d459ffd22b267c57ea993cef5d6704",
   author: {
     handle: "pizzabaygull",
-    name: "Daniel Blat"
+    name: "Daniel Blat Sux"
   },
   likes: 22,
   retweets: 100,
