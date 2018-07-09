@@ -18,16 +18,21 @@ class App extends Component {
   render() {
     return (
       <div>
+      {/* The tweetContainer div will contain all of the content*/}
         <div className='tweetContainer'>
+          {/* The Avatar component takes a hash that renders a user avatar */}
           <Avatar hash={testTweet.gravatar}/>
+          {/* This div will be the container for the rest of the content*/}
           <div className="content">
+            {/* The following components render the Message, Time, and Author of the tweet */}
             <NameAndHandle author={testTweet.author}/><Time time={testTweet.timestamp}/>
             <Message text={testTweet.message}/>
+            {/* this div will contain all of the button components */}
             <div className="buttons">
               <ReplyButton/>
               <RetweetButton count={testTweet.retweets}/>
               <LikeButton count={testTweet.likes}/>
-              <MoreOptionsButton/>
+              <MoreOptionsButton/> 
             </div>
           </div>
         </div>
@@ -35,13 +40,12 @@ class App extends Component {
     );
   }
 }
-
+//This dummy data will tell the tweet what to render. Change these fields to see it update in the render
 const testTweet = {
   message: "When pizza's on a bagel, you can have pizza anytime",
   gravatar: "24d459ffd22b267c57ea993cef5d6704",
   author: {
     handle: "pizzabaygull",
-
     name: "Andrea"
 
   },
