@@ -13,7 +13,7 @@ class App extends Component {
   constructor(props) {
     super();
   }
-  
+
   render() {
     return (
       <div>
@@ -40,12 +40,12 @@ const testTweet = {
   gravatar: "24d459ffd22b267c57ea993cef5d6704",
   author: {
     handle: "pizzabaygull",
-    name: "Daniel Blat"
+    name: "Andrea"
   },
   likes: 22,
   retweets: 100,
   timestamp: "2018-06-30 21:24:37"
 };
-  
+
 
 export default App;
