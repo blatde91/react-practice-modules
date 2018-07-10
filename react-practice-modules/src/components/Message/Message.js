@@ -1,9 +1,8 @@
 import React from 'react';
-
-const Message = (props) => {
+//What needs to be added to have the Message component render the text of the message?
+const Message = () => {
     return (
       <div className="message">
-        {props.text}
       </div>
 
     )
