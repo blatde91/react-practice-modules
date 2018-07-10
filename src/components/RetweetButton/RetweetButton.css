@@ -1,0 +1,12 @@
+.retweet-button {
+    width: 80px;
+    display: inline-block;
+}
+
+.retweet-count {
+    position: relative;
+    bottom: 2px;
+    font-size: 13px;
+    margin-left: 6px;
+    font-weight: bold;
+}
