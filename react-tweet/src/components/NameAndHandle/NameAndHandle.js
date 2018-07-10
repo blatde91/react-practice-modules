@@ -1,8 +1,9 @@
-//This component displays the users Twitter username and handle
+/*
+This component displays the users Twitter username and handle
+Edit the code so that it renders the user's twitter name and handle
+*/
 import React from 'react';
 import './NameAndHandle.css';
-
-//Edit the code to see the user's name and twitter handle?
 
 const NameAndHandle = () => {
     return (

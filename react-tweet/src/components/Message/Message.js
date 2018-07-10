@@ -1,5 +1,8 @@
 import React from 'react';
-//What needs to be added to have the Message component render the text of the message?
+/*
+Edit this Message component to have it render your message
+from the dummy data in App.js 
+*/
 const Message = () => {
     return (
       <div className="message">
