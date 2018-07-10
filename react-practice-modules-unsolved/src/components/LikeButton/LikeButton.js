@@ -1,3 +1,4 @@
+//This component Renders the like button and the number of likes
 import React from 'react';
 import './LikeButton.css';
 

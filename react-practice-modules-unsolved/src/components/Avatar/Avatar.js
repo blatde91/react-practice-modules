@@ -1,3 +1,4 @@
+//This component renders the image or avatar for the tweet
 import React from 'react';
 import './Avatar.css';
 

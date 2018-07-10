@@ -1,3 +1,4 @@
+//This component uses props to show a number next to the retweet button only when there are more than 0 retweets
 import React from 'react';
 import './RetweetButton.css';
 

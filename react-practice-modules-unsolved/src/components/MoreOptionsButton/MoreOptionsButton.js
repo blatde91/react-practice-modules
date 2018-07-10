@@ -1,3 +1,4 @@
+//This component only renders the ellipsis more options button
 import React from 'react';
 import './MoreOptionsButton.css';
 
