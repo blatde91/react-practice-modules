@@ -21,7 +21,7 @@ class App extends Component {
       {/* The tweetContainer div will contain all of the content*/}
         <div className='tweetContainer'>
           {/* The Avatar component takes a hash that renders a user avatar */}
-          <Avatar hash={testTweet.gravatar} {/*This is how we pass props down the component tree*/}/>
+          <Avatar hash={testTweet.gravatar} /*This is how we pass props down the component tree*//>
           {/* This div will be the container for the rest of the content*/}
           <div className="content">
             {/* The following components render the Message, Time, and Author of the tweet */}

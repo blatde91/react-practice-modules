@@ -5,8 +5,10 @@ const LikeButton = (props) => {
     return (
         <span className="like-button">
           <i className="fa fa-heart"/>
-          {/*How would props be passed here to only render when there are more than 0 likes?*/}
-
+          {props.count > 0 &&
+            <span className="like-count">
+              {props.count}
+            </span>}
         </span>
     )
 }
