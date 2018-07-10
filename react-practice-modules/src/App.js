@@ -10,6 +10,7 @@ import MoreOptionsButton from './components/MoreOptionsButton/MoreOptionsButton'
 import './App.css';
 
 class App extends Component {
+
   constructor(props) {
     super();
   }
@@ -45,17 +46,14 @@ const testTweet = {
   gravatar: "24d459ffd22b267c57ea993cef5d6704",
   author: {
     handle: "pizzabaygull",
-<<<<<<< HEAD
-    name: "Andrea"
-
-=======
-    name: "Daniel Blat"
->>>>>>> 805d8439e9564535acb17b25c317d391329c055b
+    name: "Andrea",
   },
   likes: 22,
   retweets: 100,
   timestamp: "2018-06-30 21:24:37"
 };
+
+//giving the components this dummy data will allow the nested jsx to render this information as PROPS
 
 
 export default App;
