@@ -1,5 +1,5 @@
 ## Setup
----
+
 The react-tweet folder contains the components that needs to be filled out, whereas the solved folder has a working rendition of the tweet.
 
 To run, clone this repo in your local machine, then cd into one of the folders and run an NPM install, and then an NPM start.
@@ -23,7 +23,7 @@ The tweet in the react-tweet folder should show this:
 
 <img src="broken-tweet.png" />
 
----
+
 ## Exercise
 This react-tweet is broken, your job is to debug the code in the src folder to show a proper tweet!
 
